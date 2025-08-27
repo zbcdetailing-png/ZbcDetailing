@@ -154,20 +154,23 @@
     }
 
     .price-toggle {
-      margin-top: 10px;
-      padding: 10px 15px;
+      background: #333;
+      color: #ffd700;
       border: none;
+      padding: 10px 15px;
+      margin-top: 10px;
       border-radius: 8px;
-      background: #ffd700;
-      color: #000;
-      font-weight: bold;
       cursor: pointer;
+      font-weight: bold;
       transition: all 0.3s ease;
     }
 
     .price-toggle:hover {
-      background: #fff;
-      transform: scale(1.05);
+      background: #444;
+    }
+
+    .price-dropdown {
+      padding-left: 15px;
     }
 
     /* Booking Form */
@@ -251,11 +254,21 @@
     <div class="service">
       <h3>🛋️ The Interior Reset</h3>
       <p>Deep clean & protect every surface. Sub-services: 🐾 Pet Hair • ☣️ Biohazards • 🧴 Stains • 🌫️ Odors</p>
-      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
-      <div class="price-dropdown" style="display:none; margin-top:10px; color:#ffd700;">
+
+      <!-- Standard Prices -->
+      <button class="price-toggle">View Standard Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown" style="display:none;">
         <p>Sedan: 💰 $150 — ⏱ 2.5 hrs</p>
         <p>SUV: 💰 $180 — ⏱ 3 hrs</p>
         <p>Truck: 💰 $200 — ⏱ 3.5 hrs</p>
+      </div>
+
+      <!-- Premium Prices -->
+      <button class="price-toggle">View Premium Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown" style="display:none;">
+        <p>Sedan: 💰 $275</p>
+        <p>SUV: 💰 $325</p>
+        <p>Truck: 💰 $375</p>
       </div>
     </div>
 
@@ -263,11 +276,21 @@
     <div class="service">
       <h3>🚿 The Exterior Revival</h3>
       <p>Hand wash, clay bar & wax. Sub-services: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
-      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
-      <div class="price-dropdown" style="display:none; margin-top:10px; color:#ffd700;">
+
+      <!-- Standard Prices -->
+      <button class="price-toggle">View Standard Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown" style="display:none;">
         <p>Sedan: 💰 $120 — ⏱ 2 hrs</p>
         <p>SUV: 💰 $150 — ⏱ 2.5 hrs</p>
         <p>Truck: 💰 $170 — ⏱ 3 hrs</p>
+      </div>
+
+      <!-- Premium Prices -->
+      <button class="price-toggle">View Premium Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown" style="display:none;">
+        <p>Sedan: 💰 $275</p>
+        <p>SUV: 💰 $325</p>
+        <p>Truck: 💰 $375</p>
       </div>
     </div>
 
@@ -312,8 +335,8 @@
       <input type="text" placeholder="Vehicle (Make & Model)" required>
       <select required>
         <option value="">Select Package</option>
-        <option>The Interior Reset — $150+</option>
-        <option>The Exterior Revival — $120+</option>
+        <option>The Interior Reset — $150</option>
+        <option>The Exterior Revival — $120</option>
         <option>The Signature Shine — $250</option>
         <option>The Engine Elegance — $80</option>
         <option>The Diamond Coat — $800+</option>
@@ -329,8 +352,9 @@
   <section id="contact">
     <h2>📍 Contact Us</h2><br>
     <p>Serving your area with premium mobile detailing.</p>
-    <p>📲 Instagram: <a href="https://www.instagram.com/zbcdetailing" target="_blank" style="color:#ffd700;">@zbcdetailing</a> • Facebook: <a href="https://www.facebook.com/zbcdetailing" target="_blank" style="color:#ffd700;">@zbcdetailing</a></p>
-    <p>☎️ <a href="tel:5703908696" style="color:#ffd700;">570-390-8696</a> • ✉️ <a href="mailto:zbcdetailing@gmail.com" style="color:#ffd700;">zbcdetailing@gmail.com</a></p>
+    <p>📲 Instagram: <a href="https://instagram.com/zbcdetailing" target="_blank">@zbcdetailing</a> • Facebook: <a href="https://facebook.com/zbcdetailing" target="_blank">@zbcdetailing</a></p>
+    <p>☎️ 570-390-8696</p>
+    <p>✉️ zbcdetailing@gmail.com</p>
   </section>
 
   <footer>
@@ -338,10 +362,10 @@
     <p>"Luxury is in the details."</p>
   </footer>
 
-  <!-- Scroll Animation Script -->
+  <!-- Scroll Animation & Dropdown Script -->
   <script>
+    // Scroll animations
     const sections = document.querySelectorAll("section, .service");
-
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -349,23 +373,14 @@
         }
       });
     }, { threshold: 0.1 });
+    sections.forEach(sec => observer.observe(sec));
 
-    sections.forEach(sec => {
-      observer.observe(sec);
-    });
-
-    // Dropdown toggle functionality
-    const toggleButtons = document.querySelectorAll('.price-toggle');
-    toggleButtons.forEach(button => {
-      button.addEventListener('click', () => {
-        const dropdown = button.nextElementSibling;
-        if (dropdown.style.display === 'none') {
-          dropdown.style.display = 'block';
-          button.textContent = "Hide Prices ⬆️";
-        } else {
-          dropdown.style.display = 'none';
-          button.textContent = "View Prices by Vehicle Type ⬇️";
-        }
+    // Price dropdown toggle
+    const buttons = document.querySelectorAll(".price-toggle");
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const dropdown = btn.nextElementSibling;
+        dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
       });
     });
   </script>
