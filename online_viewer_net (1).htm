@@ -335,4 +335,42 @@
 
   <footer>
     <p>Luxury Mobile Detailing</p>
-    <p>"Luxury is in the de
+    <p>"Luxury is in the details."</p>
+  </footer>
+
+  <!-- Scroll Animation Script -->
+  <script>
+    const sections = document.querySelectorAll("section, .service");
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    }, { threshold: 0.1 });
+
+    sections.forEach(sec => {
+      observer.observe(sec);
+    });
+
+    // Dropdown toggle functionality
+    const toggleButtons = document.querySelectorAll('.price-toggle');
+    toggleButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const dropdown = button.nextElementSibling;
+        if (dropdown.style.display === 'none') {
+          dropdown.style.display = 'block';
+          button.textContent = "Hide Prices ⬆️";
+        } else {
+          dropdown.style.display = 'none';
+          button.textContent = "View Prices by Vehicle Type ⬇️";
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
+
+
