@@ -18,6 +18,12 @@
       padding: 3rem 1rem;
       color: #ffd700;
     }
+    header img {
+      max-width: 180px;
+      margin-bottom: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
     header h1 {
       font-size: 2.5rem;
       margin: 0;
@@ -92,6 +98,8 @@
 
   <!-- Header -->
   <header>
+    <!-- Replace the link below with your real logo image -->
+    <img src="https://via.placeholder.com/180x100.png?text=ZBC+Logo" alt="ZBC Detailing Logo">
     <h1>ZBC Luxury Mobile Detailing</h1>
     <p>"Luxury is in the details"</p>
   </header>
