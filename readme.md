@@ -83,7 +83,7 @@
       padding-left: 10px;
     }
     .price-dropdown.open {
-      max-height: 300px; /* Enough room for 3 prices */
+      max-height: 300px;
       padding-top: 10px;
     }
     footer {
@@ -103,7 +103,6 @@
 
   <!-- Header -->
   <header>
-    <!-- Replace with your real logo -->
     <img src="https://via.placeholder.com/180x100.png?text=ZBC+Logo" alt="ZBC Detailing Logo">
     <h1>ZBC Luxury Mobile Detailing</h1>
     <p>"Luxury is in the details"</p>
@@ -199,9 +198,20 @@
   <!-- Script for Dropdown Slide -->
   <script>
     const toggles = document.querySelectorAll(".price-toggle");
+    const dropdowns = document.querySelectorAll(".price-dropdown");
+
     toggles.forEach(button => {
       button.addEventListener("click", () => {
         const dropdown = button.nextElementSibling;
+
+        // Close all dropdowns first
+        dropdowns.forEach(d => {
+          if (d !== dropdown) {
+            d.classList.remove("open");
+          }
+        });
+
+        // Toggle the clicked one
         dropdown.classList.toggle("open");
       });
     });
