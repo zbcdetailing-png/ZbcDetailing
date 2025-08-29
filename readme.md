@@ -235,7 +235,7 @@
 
   <!-- Navbar -->
   <nav>
-    <h1>🚘 Luxury Detailing</h1>
+    <h1>🚘 ZBC Detailng</h1>
     <ul>
       <li><a href="#services">Services</a></li>
       <li><a href="#booking">Book</a></li>
@@ -245,7 +245,7 @@
 
   <!-- Hero Section -->
   <div class="hero">
-    <h1>🚘✨ Luxury Mobile Detailing</h1>
+    <h1>🚘✨ ZBC Detailng</h1>
     <p>"Experience showroom shine at your doorstep"</p>
     <a href="#services" class="btn">Book Your Detail</a>
   </div>
@@ -344,8 +344,8 @@
   </section>
 
   <footer>
-    <p>Luxury Mobile Detailing</p>
-    <p>"Luxury is in the details."</p>
+    <p>ZBC Detailng</p>
+    <p>"Making Details Great Again."</p>
   </footer>
 
   <!-- Scripts -->
