@@ -339,8 +339,8 @@
   <section id="contact">
     <h2>📍 Contact Us</h2><br>
     <p>Serving your area with premium mobile detailing.</p>
-    <p>📲 Instagram • Facebook • TikTok</p>
-    <p>☎️ (Your Phone Number Here)</p>
+    <p>📲 Instagram ([ZBC Detailing](https://www.instagram.com/zbcdetailing?igsh=MWJibzEzN2tnamdrNQ==) • Facebook • TikTok</p>
+    <p>☎️ (570-390-8696)</p>
   </section>
 
   <footer>
