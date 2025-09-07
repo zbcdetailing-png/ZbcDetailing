@@ -104,7 +104,7 @@
       <!-- Interior Reset -->
       <div class="service">
         <h3>🛋️ The Interior Reset</h3>
-        <p>Deep clean & protect every surface.</p>
+        <p>Deep clean & protect every surface. Sub-services: 🐾 Pet Hair • ☣️ Biohazards • 🧴 Stains • 🌫️ Odors</p>
         <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
         <div class="price-dropdown">
           <p>Sedan: 💰 $150 — ⏱ 2.5 hrs</p>
@@ -116,7 +116,7 @@
       <!-- Exterior Revival -->
       <div class="service">
         <h3>🚿 The Exterior Revival</h3>
-        <p>Hand wash, clay bar & wax.</p>
+        <p>Hand wash, clay bar & wax. Sub-services: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
         <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
         <div class="price-dropdown">
           <p>Sedan: 💰 $120 — ⏱ 2 hrs</p>
@@ -163,6 +163,20 @@
         <h3>🪟 Glass Polish</h3>
         <p>Remove water spots & restore perfect clarity to windows.</p>
         <p>💰 $70 — ⏱ 1 hr</p>
+      </div>
+
+      <!-- Add-Ons -->
+      <div class="service">
+        <h3>➕ Add-Ons</h3>
+        <p>Specialized services for tougher jobs.</p>
+        <button class="price-toggle">View Add-Ons ⬇️</button>
+        <div class="price-dropdown">
+          <p>🟡 Stain Removal – 💰 $50+</p>
+          <p>🟡 Biohazard Cleanup – 💰 $100+</p>
+          <p>🟡 Pet Hair Removal – 💰 $40+</p>
+          <p>🟡 Odor Elimination – 💰 $75+</p>
+          <p>🟡 Headlight Restoration – 💰 $60</p>
+        </div>
       </div>
 
     </div>
