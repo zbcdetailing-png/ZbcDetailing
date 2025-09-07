@@ -104,7 +104,7 @@
       <!-- Interior Reset -->
       <div class="service">
         <h3>🛋️ The Interior Reset</h3>
-        <p>Deep clean & protect every surface. Sub-services: 🐾 Pet Hair • ☣️ Biohazards • 🧴 Stains • 🌫️ Odors</p>
+        <p>Deep clean & protect every surface. Addons if asked for: 🐾 Pet Hair • ☣️ Biohazards • 🧴 Stains • 🌫️ Odors</p>
         <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
         <div class="price-dropdown">
           <p>Sedan: 💰 $150 — ⏱ 2.5 hrs</p>
@@ -116,7 +116,7 @@
       <!-- Exterior Revival -->
       <div class="service">
         <h3>🚿 The Exterior Revival</h3>
-        <p>Hand wash, clay bar & wax. Sub-services: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
+        <p>Hand wash, clay bar & wax. Addons if asked for: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
         <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
         <div class="price-dropdown">
           <p>Sedan: 💰 $120 — ⏱ 2 hrs</p>
