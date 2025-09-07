@@ -138,7 +138,7 @@
     <p>"Making Detailing Great Again"</p>
 
     <!-- Hero Car Image -->
-    <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d" alt="Luxury Car Detailing" class="hero-img">
+    <img width="516" height="356" alt="0bb472_b1564ee42f6a4271ad8486c554b7d804~mv2" src="https://github.com/user-attachments/assets/4f12a873-fdd4-491b-8c7a-ee44f4241711" />
   </header>
 
   <!-- Services -->
