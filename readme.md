@@ -5,20 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ZBC Detailing</title>
   <style>
-    /* Global Styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-
     body {
       background-color: #0d0d0d;
       color: #f5f5f5;
       line-height: 1.6;
       overflow-x: hidden;
       scroll-behavior: smooth;
+      font-family: Arial, sans-serif;
     }
 
     h1, h2, h3 {
@@ -177,6 +170,60 @@
       transform: rotate(180deg);
     }
 
+    /* Add-Ons Section */
+    .addons {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 15px;
+      margin-bottom: 40px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+      transition: transform 0.4s ease, background 0.4s ease;
+      opacity: 0;
+      transform: translateY(40px);
+    }
+
+    .addons.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .addons:hover {
+      transform: translateY(-10px);
+      background: #222;
+    }
+
+    .addons h3 {
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    .addons .dropdown {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      margin-top: 10px;
+    }
+
+    .addons.open .dropdown {
+      max-height: 500px;
+    }
+
+    .addons .arrow {
+      display: inline-block;
+      margin-left: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .addons.open .arrow {
+      transform: rotate(180deg);
+    }
+
+    .addons p {
+      color: #bbb;
+      margin: 8px 0;
+    }
+
     /* Booking Form */
     form {
       background: #1a1a1a;
@@ -235,138 +282,97 @@
 
   <!-- Navbar -->
   <nav>
-    <h1>🚘 ZBC Detailng</h1>
+    <h1>ZBC Detailing</h1>
     <ul>
       <li><a href="#services">Services</a></li>
-      <li><a href="#booking">Book</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#addons">Add-Ons</a></li>
+      <li><a href="#booking">Book Now</a></li>
     </ul>
   </nav>
 
   <!-- Hero Section -->
-  <div class="hero">
-    <h1>🚘✨ ZBC Detailng</h1>
-    <p>"Experience showroom shine at your doorstep"</p>
-    <a href="#services" class="btn">Book Your Detail</a>
-  </div>
+  <section class="hero">
+    <h1>Luxury Car Detailing</h1>
+    <p>Premium quality detailing services to make your car shine like new.</p>
+    <a href="#booking" class="btn">Book an Appointment</a>
+  </section>
 
   <!-- Services -->
   <section id="services">
-    <h2>Our Packages</h2><br><br>
-
-    <!-- Interior Reset -->
     <div class="service">
-      <h3 onclick="toggleDropdown(this)">🛋️ The Interior Reset <span class="arrow">▾</span></h3>
-      <p>Deep clean & protect every surface. Sub-services: 🐾 Pet Hair • ☣️ Biohazards • 🧴 Stains • 🌫️ Odors</p>
+      <h3 onclick="this.parentElement.classList.toggle('open')">
+        Interior Package <span class="arrow">▼</span>
+      </h3>
       <div class="dropdown">
-        <p class="price-time">Sedan — 💰 $150 — ⏱ 2.5 hrs</p>
-        <p class="price-time">SUV — 💰 $175 — ⏱ 3 hrs</p>
-        <p class="price-time">Truck — 💰 $200 — ⏱ 3.5 hrs</p>
+        <p>Sedan – $200</p>
+        <p>SUV – $250</p>
+        <p>Truck – $275</p>
       </div>
     </div>
 
-    <!-- Exterior Revival -->
     <div class="service">
-      <h3 onclick="toggleDropdown(this)">🚿 The Exterior Revival <span class="arrow">▾</span></h3>
-      <p>Hand wash, clay bar & wax. Sub-services: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
+      <h3 onclick="this.parentElement.classList.toggle('open')">
+        Exterior Package <span class="arrow">▼</span>
+      </h3>
       <div class="dropdown">
-        <p class="price-time">Sedan — 💰 $120 — ⏱ 2 hrs</p>
-        <p class="price-time">SUV — 💰 $150 — ⏱ 2.5 hrs</p>
-        <p class="price-time">Truck — 💰 $180 — ⏱ 3 hrs</p>
+        <p>Sedan – $225</p>
+        <p>SUV – $275</p>
+        <p>Truck – $325</p>
       </div>
     </div>
 
-    <!-- Signature Shine -->
     <div class="service">
-      <h3 onclick="toggleDropdown(this)">💎 The Signature Shine <span class="arrow">▾</span></h3>
-      <p>A complete inside + outside refresh for your ride 🚘✨</p>
+      <h3 onclick="this.parentElement.classList.toggle('open')">
+        Signature Shine <span class="arrow">▼</span>
+      </h3>
       <div class="dropdown">
-        <p class="price-time">Sedan — 💰 $250 — ⏱ 4 hrs</p>
-        <p class="price-time">SUV — 💰 $275 — ⏱ 4.5 hrs</p>
-        <p class="price-time">Truck — 💰 $325 — ⏱ 5 hrs</p>
+        <p>Sedan – $275</p>
+        <p>SUV – $325</p>
+        <p>Truck – $375</p>
       </div>
     </div>
+  </section>
 
-    <!-- Other services -->
-    <div class="service">
-      <h3>⚙️ The Engine Elegance</h3>
-      <p>Degreasing, steam cleaning, and protective dressing.</p>
-      <p class="price-time">💰 $80 — ⏱ 1 hr</p>
-    </div>
-
-    <div class="service">
-      <h3>🛡️ The Diamond Coat</h3>
-      <p>Multi-stage paint correction + ceramic coating for ultimate protection.</p>
-      <p class="price-time">💰 Starting at $800 — ⏱ 8–12 hrs</p>
-    </div>
-
-    <div class="service">
-      <h3>🔦 The Clarity Restoration</h3>
-      <p>Headlight wet sanding, polish, and UV sealant for clarity.</p>
-      <p class="price-time">💰 $100 — ⏱ 1.5 hrs</p>
-    </div>
-
-    <div class="service">
-      <h3>🪟 The Glass Polish</h3>
-      <p>Removes haze, water spots & restores optical clarity to glass.</p>
-      <p class="price-time">💰 $70 — ⏱ 1 hr</p>
+  <!-- Add-Ons -->
+  <section id="addons">
+    <div class="addons">
+      <h3 onclick="this.parentElement.classList.toggle('open')">
+        Add-Ons <span class="arrow">▼</span>
+      </h3>
+      <div class="dropdown">
+        <p>🟡 Stain Removal – $50+</p>
+        <p>🟡 Biohazard Cleanup – $100+</p>
+        <p>🟡 Pet Hair Removal – $40+</p>
+        <p>🟡 Odor Elimination – $75+</p>
+        <p>🟡 Headlight Restoration – $60</p>
+      </div>
     </div>
   </section>
 
   <!-- Booking Form -->
   <section id="booking">
-    <h2>📅 Schedule Your Detail</h2><br><br>
     <form>
+      <h2>Book Your Appointment</h2>
       <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
       <input type="tel" placeholder="Phone Number" required>
-      <input type="text" placeholder="Vehicle (Make & Model)" required>
       <select required>
-        <option value="">Select Package</option>
-        <option>The Interior Reset — $150</option>
-        <option>The Exterior Revival — $120</option>
-        <option>The Signature Shine — $250</option>
-        <option>The Engine Elegance — $80</option>
-        <option>The Diamond Coat — $800+</option>
-        <option>The Clarity Restoration — $100</option>
-        <option>The Glass Polish — $70</option>
+        <option value="">Select Service</option>
+        <option>Interior Package</option>
+        <option>Exterior Package</option>
+        <option>Signature Shine</option>
+        <option>Add-On</option>
       </select>
-      <textarea rows="4" placeholder="Additional Notes / Sub-services"></textarea>
-      <button type="submit">Book Now</button>
+      <textarea rows="5" placeholder="Additional Notes"></textarea>
+      <button type="submit">Submit</button>
     </form>
   </section>
 
-  <!-- Contact / Footer -->
-  <section id="contact">
-    <h2>📍 Contact Us</h2><br>
-    <p>Serving your area with premium mobile detailing.</p>
-    <p>📲 Instagram ([ZBC Detailing](https://www.instagram.com/zbcdetailing?igsh=MWJibzEzN2tnamdrNQ==) • Facebook • TikTok</p>
-    <p>☎️ (570-390-8696)</p>
-  </section>
-
+  <!-- Footer -->
   <footer>
-    <p>ZBC Detailng</p>
-    <p>"Making Details Great Again."</p>
+    <p>&copy; 2025 ZBC Detailing. All Rights Reserved.</p>
+    <p>Follow us on Instagram @ZBCDetailing</p>
   </footer>
-
-  <!-- Scripts -->
-  <script>
-    // Scroll animation for sections & services
-    const sections = document.querySelectorAll("section, .service");
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("show");
-        }
-      });
-    }, { threshold: 0.1 });
-    sections.forEach(sec => observer.observe(sec));
-
-    // Dropdown toggle
-    function toggleDropdown(element) {
-      const service = element.parentElement;
-      service.classList.toggle("open");
-    }
-  </script>
 
 </body>
 </html>
