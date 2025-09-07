@@ -131,9 +131,6 @@
 
   <!-- Header -->
   <header>
-    <!-- Logo -->
-    <img src="0bb472_b1564ee42f6a4271ad8486c554b7d804~mv2.png" alt="ZBC Detailing Logo" class="hero-logo">
-
     <h1>ZBC Mobile Detailing</h1>
     <p>"Making Detailing Great Again"</p>
 
