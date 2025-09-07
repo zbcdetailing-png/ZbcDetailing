@@ -104,7 +104,7 @@
       <!-- Interior Reset -->
       <div class="service">
         <h3>🛋️ The Interior Reset</h3>
-        <p>Deep clean & protect every surface.</p>
+        <p>Deep clean & protect every surface. Sub-services: 🐾 Pet Hair • ☣️ Biohazards • 🧴 Stains • 🌫️ Odors</p>
         <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
         <div class="price-dropdown">
           <p>Sedan: 💰 $150 — ⏱ 2.5 hrs</p>
@@ -116,7 +116,7 @@
       <!-- Exterior Revival -->
       <div class="service">
         <h3>🚿 The Exterior Revival</h3>
-        <p>Hand wash</p>
+        <p>Hand wash, clay bar & wax. Sub-services: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
         <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
         <div class="price-dropdown">
           <p>Sedan: 💰 $120 — ⏱ 2 hrs</p>
@@ -171,7 +171,7 @@
         <p>Specialized services for tougher jobs.</p>
         <button class="price-toggle">View Add-Ons ⬇️</button>
         <div class="price-dropdown">
-          <p>🟡 Stain Removal – 💰 $25+</p>
+      <p>🟡 Stain Removal – 💰 $25+</p>
           <p>🟡 Biohazard Cleanup – 💰 $90+</p>
           <p>🟡 excessive Pet Hair Removal – 💰 $35+</p>
           <p>🟡 Odor Elimination – 💰 $75+</p>
@@ -179,7 +179,12 @@
           <p>🟡 waterspot removal – 💰 $75+</p>
           <p>🟡 claybar and iron remover treatment – 💰 $75</p>
           <p>🟡 leather ceramic coating – 💰 $150+</p>
-         <!DOCTYPE html>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
   <!-- Contact -->
   <section id="contact">
     <h2>📍 Contact Us</h2><br>
@@ -192,7 +197,7 @@
   <footer>
     <p>Luxury Mobile Detailing</p>
     <p>☎️ <a href="tel:5703908696">570-390-8696</a> • ✉️ <a href="mailto:zbcdetailing@gmail.com">zbcdetailing@gmail.com</a></p>
-    <p>"MAKING DETAILING GREAT AGAIN!."</p>
+    <p>"Luxury is in the details."</p>
   </footer>
 
   <!-- Script for Dropdowns -->
