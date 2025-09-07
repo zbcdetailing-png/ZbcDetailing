@@ -18,13 +18,7 @@
       text-align: center;
       padding: 2rem 1rem 1rem;
       color: #ffd700;
-    }
-
-    /* Logo */
-    .hero-logo {
-      width: 180px;
-      display: block;
-      margin: 0 auto 1.5rem;
+    
     }
 
     header h1 {
@@ -36,15 +30,7 @@
       font-size: 1.2rem;
       color: #ccc;
       margin-bottom: 1.5rem;
-    }
-
-    .hero-img {
-      width: 100%;
-      height: 60vh;
-      object-fit: cover;
-      border-bottom: 4px solid #ffd700;
-      border-top: 4px solid #ffd700;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+      
     }
 
     section {
