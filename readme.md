@@ -12,36 +12,60 @@
       color: #f5f5f5;
       line-height: 1.7;
     }
+
     header {
       background: linear-gradient(135deg, #111, #222);
       text-align: center;
-      padding: 3rem 1rem;
+      padding: 2rem 1rem 1rem;
       color: #ffd700;
     }
+
+    /* Logo */
+    .hero-logo {
+      width: 180px;
+      display: block;
+      margin: 0 auto 1.5rem;
+    }
+
     header h1 {
       font-size: 2.5rem;
-      margin: 0;
+      margin: 0.5rem 0;
     }
+
     header p {
       font-size: 1.2rem;
       color: #ccc;
+      margin-bottom: 1.5rem;
     }
+
+    .hero-img {
+      width: 100%;
+      height: 60vh;
+      object-fit: cover;
+      border-bottom: 4px solid #ffd700;
+      border-top: 4px solid #ffd700;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    }
+
     section {
       padding: 3rem 2rem;
       max-width: 1000px;
       margin: auto;
     }
+
     h2 {
       color: #ffd700;
       border-bottom: 2px solid #ffd700;
       display: inline-block;
       margin-bottom: 1.5rem;
     }
+
     .services {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
     }
+
     .service {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 15px;
@@ -49,13 +73,16 @@
       box-shadow: 0 4px 30px rgba(0,0,0,0.5);
       transition: transform 0.3s ease, background 0.3s ease;
     }
+
     .service:hover {
       transform: translateY(-8px);
       background: rgba(255, 255, 255, 0.08);
     }
+
     .service h3 {
       color: #ffd700;
     }
+
     .price-toggle {
       background: none;
       border: 1px solid #ffd700;
@@ -66,15 +93,26 @@
       margin-top: 10px;
       transition: background 0.3s ease;
     }
+
     .price-toggle:hover {
       background: #ffd700;
       color: #111;
     }
+
     .price-dropdown {
       margin-top: 10px;
       padding-left: 10px;
-      display: none;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, opacity 0.3s ease;
+      opacity: 0;
     }
+
+    .price-dropdown.show {
+      max-height: 500px;
+      opacity: 1;
+    }
+
     footer {
       text-align: center;
       background: #111;
@@ -82,6 +120,7 @@
       color: #999;
       margin-top: 2rem;
     }
+
     footer a {
       color: #ffd700;
       text-decoration: none;
@@ -92,8 +131,14 @@
 
   <!-- Header -->
   <header>
-    <h1>ZBC Luxury Mobile Detailing</h1>
-    <p>"Luxury is in the details"</p>
+    <!-- Logo -->
+    <img src="0bb472_b1564ee42f6a4271ad8486c554b7d804~mv2.png" alt="ZBC Detailing Logo" class="hero-logo">
+
+    <h1>ZBC Mobile Detailing</h1>
+    <p>"Making Detailing Great Again"</p>
+
+    <!-- Hero Car Image -->
+    <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d" alt="Luxury Car Detailing" class="hero-img">
   </header>
 
   <!-- Services -->
@@ -171,14 +216,14 @@
         <p>Specialized services for tougher jobs.</p>
         <button class="price-toggle">View Add-Ons ⬇️</button>
         <div class="price-dropdown">
-      <p>🟡 Stain Removal – 💰 $25+</p>
+          <p>🟡 Stain Removal – 💰 $25+</p>
           <p>🟡 Biohazard Cleanup – 💰 $90+</p>
-          <p>🟡 excessive Pet Hair Removal – 💰 $35+</p>
+          <p>🟡 Excessive Pet Hair Removal – 💰 $35+</p>
           <p>🟡 Odor Elimination – 💰 $75+</p>
-          <p>🟡 trim restoration – 💰 $125</p>
-          <p>🟡 waterspot removal – 💰 $75+</p>
-          <p>🟡 claybar and iron remover treatment – 💰 $75</p>
-          <p>🟡 leather ceramic coating – 💰 $150+</p>
+          <p>🟡 Trim Restoration – 💰 $125</p>
+          <p>🟡 Water Spot Removal – 💰 $75+</p>
+          <p>🟡 Clay Bar + Iron Remover – 💰 $75</p>
+          <p>🟡 Leather Ceramic Coating – 💰 $150+</p>
         </div>
       </div>
 
@@ -206,7 +251,7 @@
     toggles.forEach(button => {
       button.addEventListener("click", () => {
         const dropdown = button.nextElementSibling;
-        dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+        dropdown.classList.toggle("show");
       });
     });
   </script>
