@@ -14,28 +14,28 @@
     }
 
     header {
-      background: #0d0d0d; /* Matches body background */
+      background: #0d0d0d; /* Match body background */
       text-align: center;
-      padding: 1.5rem 1rem; /* Compact padding */
+      padding: 1rem 1rem; /* Compact header */
       color: #ffd700;
     }
 
     header h1 {
-      font-size: 2.5rem;
-      margin: 0.5rem 0 0.8rem; /* Less space below title */
+      font-size: 2.2rem;  /* Slightly smaller */
+      margin: 0.5rem 0 0.6rem;
     }
 
     header p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       color: #ccc;
-      margin-bottom: 1rem; /* Reduced spacing below tagline */
+      margin-bottom: 0.8rem;
     }
 
     header img {
       width: 100%;
-      max-width: 500px;
-      height: auto; /* Responsive */
-      margin-top: 1rem;
+      max-width: 300px; /* Smaller logo */
+      height: auto;
+      margin-top: 0.5rem;
     }
 
     section {
