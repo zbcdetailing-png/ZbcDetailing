@@ -199,14 +199,14 @@
         <p>Specialized services for tougher jobs.</p>
         <button class="price-toggle">View Add-Ons ⬇️</button>
         <div class="price-dropdown">
-          <p>🟡 Stain Removal – 💰 $25+</p>
-          <p>🟡 Biohazard Cleanup – 💰 $90+</p>
-          <p>🟡 Excessive Pet Hair Removal – 💰 $35+</p>
-          <p>🟡 Odor Elimination – 💰 $75+</p>
-          <p>🟡 Trim Restoration – 💰 $125</p>
-          <p>🟡 Water Spot Removal – 💰 $75+</p>
-          <p>🟡 Clay Bar + Iron Remover – 💰 $75</p>
-          <p>🟡 Leather Ceramic Coating – 💰 $150+</p>
+          <p>🟡 Stain Removal– $25+</p>
+          <p>🟡 Biohazard Cleanup– $90+</p>
+          <p>🟡 Excessive Pet Hair Removal– $35+</p>
+          <p>🟡 Odor Elimination– $75+</p>
+          <p>🟡 Trim Restoration– $125</p>
+          <p>🟡 Water Spot Removal– $75+</p>
+          <p>🟡 Clay Bar + Iron Remover– $75</p>
+          <p>🟡 Leather Ceramic Coating– $150+</p>
         </div>
       </div>
 
