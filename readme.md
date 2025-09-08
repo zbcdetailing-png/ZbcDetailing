@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,23 +14,28 @@
     }
 
     header {
-      background: linear-gradient(135deg, #111, #222);
+      background: #0d0d0d; /* Matches body background */
       text-align: center;
-      padding: 2rem 1rem 1rem;
+      padding: 1.5rem 1rem; /* Compact padding */
       color: #ffd700;
-    
     }
 
     header h1 {
       font-size: 2.5rem;
-      margin: 0.5rem 0;
+      margin: 0.5rem 0 0.8rem; /* Less space below title */
     }
 
     header p {
       font-size: 1.2rem;
       color: #ccc;
-      margin-bottom: 1.5rem;
-      
+      margin-bottom: 1rem; /* Reduced spacing below tagline */
+    }
+
+    header img {
+      width: 100%;
+      max-width: 500px;
+      height: auto; /* Responsive */
+      margin-top: 1rem;
     }
 
     section {
@@ -119,9 +124,7 @@
   <header>
     <h1>ZBC Mobile Detailing</h1>
     <p>"Making Detailing Great Again"</p>
-
-    <!-- Hero Car Image -->
-  <img width="500" height="500" alt="123" src="https://github.com/user-attachments/assets/750afa42-62e9-48cb-8df7-0af42ad38786" />
+    <img width="500" height="500" alt="ZBC Detailing Logo" src="https://github.com/user-attachments/assets/750afa42-62e9-48cb-8df7-0af42ad38786" />
   </header>
 
   <!-- Services -->
