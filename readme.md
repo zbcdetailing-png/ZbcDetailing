@@ -121,7 +121,7 @@
     <p>"Making Detailing Great Again"</p>
 
     <!-- Hero Car Image -->
-  <img width="516" height="356" alt="0bb472_b1564ee42f6a4271ad8486c554b7d804~mv2" src="https://github.com/user-attachments/assets/b6703e56-6f61-469e-8de1-6bb0862a5572" />
+  <img width="516" height="356" alt="0bb472_b1564ee42f6a4271ad8486c554b7d804~mv2" src="https://github.com/user-attachments/assets/6ec4d0a1-c221-4820-bca8-7ed4fcc4f8f6" />
   </header>
 
   <!-- Services -->
