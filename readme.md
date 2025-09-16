@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -147,7 +146,7 @@
       <!-- Exterior Revival -->
       <div class="service">
         <h3>🚿 The Exterior Revival</h3>
-        <p>Hand wash, clay bar & wax. Addons if asked for: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
+        <p>hand wash🧼, bug Removal🪲, shined tires🌟,clear windows⚪️,& wax/spray ceramic🧴. Addons if asked for: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
         <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
         <div class="price-dropdown">
           <p>Sedan: 💰 $125 — ⏱ 1 hrs</p>
