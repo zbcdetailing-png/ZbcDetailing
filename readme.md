@@ -138,9 +138,9 @@
         <p>Deep clean & protect every surface. Addons if asked for: 🐾 Pet Hair • ☣️ Biohazards • 🧴 Stains • 🌫️ Odors</p>
         <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
         <div class="price-dropdown">
-          <p>Sedan: 💰 $150 — ⏱ 2.5 hrs</p>
-          <p>SUV: 💰 $180 — ⏱ 3 hrs</p>
-          <p>Truck: 💰 $200 — ⏱ 3.5 hrs</p>
+          <p>Sedan: 💰 $150 — ⏱ 2 hrs</p>
+          <p>SUV: 💰 $175 — ⏱ 2.5 hrs</p>
+          <p>Truck: 💰 $185 — ⏱ 3 hrs</p>
         </div>
       </div>
 
@@ -150,9 +150,9 @@
         <p>Hand wash, clay bar & wax. Addons if asked for: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
         <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
         <div class="price-dropdown">
-          <p>Sedan: 💰 $120 — ⏱ 2 hrs</p>
-          <p>SUV: 💰 $150 — ⏱ 2.5 hrs</p>
-          <p>Truck: 💰 $170 — ⏱ 3 hrs</p>
+          <p>Sedan: 💰 $125 — ⏱ 1 hrs</p>
+          <p>SUV: 💰 $150 — ⏱ 1.5 hrs</p>
+          <p>Truck: 💰 $200 — ⏱ 2 hrs</p>
         </div>
       </div>
 
@@ -162,9 +162,9 @@
         <p>The ultimate full detail inside & out.</p>
         <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
         <div class="price-dropdown">
-          <p>Sedan: 💰 $250 — ⏱ 4 hrs</p>
-          <p>SUV: 💰 $300 — ⏱ 4.5 hrs</p>
-          <p>Truck: 💰 $350 — ⏱ 5 hrs</p>
+          <p>Sedan: 💰 $265 — ⏱ 4 hrs</p>
+          <p>SUV: 💰 $315 — ⏱ 4.5 hrs</p>
+          <p>Truck: 💰 $365 — ⏱ 5 hrs</p>
         </div>
       </div>
 
@@ -179,21 +179,21 @@
       <div class="service">
         <h3>🛡️ Ceramic Coating + Paint Correction</h3>
         <p>Enhance gloss, protect paint & remove imperfections.</p>
-        <p>💰 Starting at $600 — ⏱ 6–8 hrs</p>
+        <p>💰 Starting at $800 — ⏱ 6–8 hrs</p>
       </div>
 
       <!-- Headlight -->
       <div class="service">
         <h3>🔦 Headlight Restoration</h3>
         <p>Restore clarity, improve visibility & protection.</p>
-        <p>💰 $60 — ⏱ 45 mins</p>
+        <p>💰 $125 — ⏱ 45 mins</p>
       </div>
 
       <!-- Glass Polish -->
       <div class="service">
         <h3>🪟 Glass Polish</h3>
-        <p>Remove water spots & restore perfect clarity to windows.</p>
-        <p>💰 $70 — ⏱ 1 hr</p>
+        <p>Remove water spots & restore perfect clarity to a window.</p>
+        <p>💰 $75 — ⏱ 1 hr</p>
       </div>
 
       <!-- Add-Ons -->
