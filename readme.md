@@ -176,27 +176,6 @@
       </div>
     </div>
     
-    <!-- Winter Special -->
-    <div class="service winter">
-      <h3>❄️ Winter Special – Wash Salt Off</h3>
-      <p>Protect your car from winter salt damage with a thorough wash and undercarriage cleaning.</p>
-      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
-      <div class="price-dropdown">
-        <p>all cars: 💰 $35 — ⏱ 30 mins</p>
-      </div>
-    </div>
-    <!-- Exterior Revival -->
-    <div class="service">
-      <h3>🚿 The Exterior Revival</h3>
-      <p>Hand wash🧼, bug removal🪲, shined tires🌟, clear windows⚪️, & wax/spray ceramic🧴. Addons if requested: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
-      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
-      <div class="price-dropdown">
-        <p>Sedan: 💰 $125 — ⏱ 1 hr</p>
-        <p>SUV: 💰 $150 — ⏱ 1.5 hrs</p>
-        <p>Truck: 💰 $200 — ⏱ 2 hrs</p>
-      </div>
-    </div>
-
     <!-- Signature Shine -->
     <div class="service">
       <h3>✨ Signature Shine (Full Interior + Exterior)</h3>
