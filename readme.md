@@ -16,13 +16,15 @@
 
     header {
       background: #000000; /* true black */
-      text-align: center;
+      text-align: center;  /* center everything */
       padding: 1rem 1rem;
       color: #ffd700;
+      position: relative; /* ensures nothing floats out of place */
+      overflow: hidden;   /* hides anything overflowing */
     }
 
     header h1 {
-      display: none; /* hide the top text */
+      display: none; /* hide any top-left text */
     }
 
     header p {
@@ -35,7 +37,9 @@
       width: 100%;
       max-width: 300px;
       height: auto;
-      margin-top: 0.5rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; /* perfectly center the logo */
     }
 
     section {
@@ -138,7 +142,7 @@
 
 <header>
   <p>"Making Detailing Great Again"</p>
-  <img src="https://raw.githubusercontent.com/zbcdetailing-png/ZbcDetailing/209c8c5ff7527ffa6dcf4833bec9e192d08bc8ba/zbc%20detailing%20logo.jpg" alt="ZBC Detailing Logo" style="max-width:300px; height:auto;">
+  <img src="https://raw.githubusercontent.com/zbcdetailing-png/ZbcDetailing/209c8c5ff7527ffa6dcf4833bec9e192d08bc8ba/zbc%20detailing%20logo.jpg" alt="ZBC Detailing Logo">
 </header>
 
 <section class="services">
@@ -231,7 +235,7 @@
       <p>Protect your car from winter salt damage with a thorough wash and undercarriage cleaning.</p>
       <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
       <div class="price-dropdown">
-        <p>all cars: 💰 $35 — ⏱ 30 mins</p>
+        <p>All cars: 💰 $35 — ⏱ 30 mins</p>
       </div>
     </div>
 
@@ -262,4 +266,3 @@
 
 </body>
 </html>
-
