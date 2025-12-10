@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZBC Mobile Detailing</title>
+  <style>
     /* General Styles */
     body {
       margin: 0;
@@ -11,14 +18,24 @@
       background: #000000; /* true black */
       text-align: center;
       padding: 1rem 1rem;
+      color: #ffd700;
+    }
+
+    header h1 {
+      display: none; /* hide the top text */
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-bottom: 0.8rem;
     }
 
     header img {
       width: 100%;
       max-width: 300px;
       height: auto;
-      display: block;
-      margin: 0 auto; /* center logo */
+      margin-top: 0.5rem;
     }
 
     section {
@@ -29,7 +46,7 @@
 
     h2 {
       color: #ffd700;
-      border-bottom: none;
+      border-bottom: none; /* removed the line */
       display: inline-block;
       margin-bottom: 1.5rem;
     }
@@ -89,13 +106,13 @@
 
     /* Winter Special Card */
     .service.winter {
-      background: rgba(173, 216, 230, 0.05);
-      border: 2px solid #87CEFA;
+      background: rgba(173, 216, 230, 0.05); /* very light icy blue */
+      border: 2px solid #87CEFA; /* light sky blue border */
       box-shadow: 0 4px 30px rgba(135, 206, 250, 0.5);
     }
 
     .service.winter h3 {
-      color: #87CEFA;
+      color: #87CEFA; /* winter blue heading */
     }
 
     .service.winter .price-toggle:hover {
@@ -120,7 +137,8 @@
 <body>
 
 <header>
-  <img src="https://raw.githubusercontent.com/zbcdetailing-png/ZbcDetailing/209c8c5ff7527ffa6dcf4833bec9e192d08bc8ba/zbc%20detailing%20logo.jpg" alt="ZBC Detailing Logo">
+  <p>"Making Detailing Great Again"</p>
+  <img src="https://raw.githubusercontent.com/zbcdetailing-png/ZbcDetailing/209c8c5ff7527ffa6dcf4833bec9e192d08bc8ba/zbc%20detailing%20logo.jpg" alt="ZBC Detailing Logo" style="max-width:300px; height:auto;">
 </header>
 
 <section class="services">
