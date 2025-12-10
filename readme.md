@@ -105,6 +105,22 @@
       opacity: 1;
     }
 
+    /* Winter Special Card */
+    .service.winter {
+      background: rgba(173, 216, 230, 0.05); /* very light icy blue */
+      border: 2px solid #87CEFA; /* light sky blue border */
+      box-shadow: 0 4px 30px rgba(135, 206, 250, 0.5);
+    }
+
+    .service.winter h3 {
+      color: #87CEFA; /* winter blue heading */
+    }
+
+    .service.winter .price-toggle:hover {
+      background: #87CEFA;
+      color: #000; 
+    }
+
     footer {
       text-align: center;
       background: #111;
@@ -210,6 +226,19 @@
         <p>🟡 Leather Ceramic Coating – $150+</p>
       </div>
     </div>
+
+    <!-- Winter Special -->
+    <div class="service winter">
+      <h3>❄️ Winter Special – Wash Salt Off</h3>
+      <p>Protect your car from winter salt damage with a thorough wash and undercarriage cleaning.</p>
+      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown">
+        <p>Sedan: 💰 $100 — ⏱ 1 hr</p>
+        <p>SUV: 💰 $120 — ⏱ 1.5 hrs</p>
+        <p>Truck: 💰 $140 — ⏱ 2 hrs</p>
+      </div>
+    </div>
+
   </div>
 </section>
 
