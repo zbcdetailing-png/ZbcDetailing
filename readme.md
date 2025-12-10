@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -233,9 +232,7 @@
       <p>Protect your car from winter salt damage with a thorough wash and undercarriage cleaning.</p>
       <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
       <div class="price-dropdown">
-        <p>Sedan: 💰 $100 — ⏱ 1 hr</p>
-        <p>SUV: 💰 $120 — ⏱ 1.5 hrs</p>
-        <p>Truck: 💰 $140 — ⏱ 2 hrs</p>
+        <p>all cars: 💰 $35 — ⏱ 30 mins</p>
       </div>
     </div>
 
