@@ -92,6 +92,8 @@
 
   <!-- Header -->
   <header>
+    <img src="images.jpg" alt="ZBC Detailing Logo" 
+         style="width:160px; height:auto; margin-bottom:20px; border-radius:50%;">
     <h1>ZBC Luxury Mobile Detailing</h1>
     <p>"Luxury is in the details"</p>
   </header>
