@@ -124,7 +124,7 @@
 <header>
   <h1>ZBC Mobile Detailing</h1>
   <p>"Making Detailing Great Again"</p>
-  <img src="https://raw.githubusercontent.com/zbcdetailing-png/ZbcDetailing/main/images.jpg" alt="ZBC Detailing Logo">
+  <img src="https://github.com/zbcdetailing-png/ZbcDetailing/blob/3c872785891012db960e847fd2155b6444d1e602/zbc%20detailing%20logo.jpg" alt="ZBC Detailing Logo">
 </header>
 
 <section class="services">
