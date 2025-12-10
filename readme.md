@@ -199,7 +199,7 @@
     <div class="service">
       <h3>🔦 Headlight Restoration</h3>
       <p>Restore clarity, improve visibility & protection.</p>
-      <p>💰 $125 — ⏱ 45 mins</p>
+      <p>💰 $100 — ⏱ 1 hr</p>
     </div>
 
     <!-- Glass Polish -->
