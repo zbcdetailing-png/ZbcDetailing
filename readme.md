@@ -9,13 +9,13 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #0d0d0d;
+      background: #000000; /* true black background */
       color: #f5f5f5;
       line-height: 1.7;
     }
 
     header {
-      background: #0d0d0d;
+      background: #000000; /* true black */
       text-align: center;
       padding: 1rem 1rem;
       color: #ffd700;
@@ -124,7 +124,7 @@
 <header>
   <h1>ZBC Mobile Detailing</h1>
   <p>"Making Detailing Great Again"</p>
-<img src="https://raw.githubusercontent.com/zbcdetailing-png/ZbcDetailing/209c8c5ff7527ffa6dcf4833bec9e192d08bc8ba/zbc%20detailing%20logo.jpg" alt="ZBC Detailing Logo" style="max-width:300px; height:auto;">
+  <img src="https://raw.githubusercontent.com/zbcdetailing-png/ZbcDetailing/209c8c5ff7527ffa6dcf4833bec9e192d08bc8ba/zbc%20detailing%20logo.jpg" alt="ZBC Detailing Logo" style="max-width:300px; height:auto;">
 </header>
 
 <section class="services">
