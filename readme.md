@@ -109,8 +109,6 @@
       background: rgba(173, 216, 230, 0.05); /* very light icy blue */
       border: 2px solid #87CEFA; /* light sky blue border */
       box-shadow: 0 4px 30px rgba(135, 206, 250, 0.5);
-      position: relative; /* for snowflakes */
-      overflow: hidden;
     }
 
     .service.winter h3 {
@@ -120,47 +118,6 @@
     .service.winter .price-toggle:hover {
       background: #87CEFA;
       color: #000; 
-    }
-
-    /* Snow animation with drift */
-    .snowflakes {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none; /* allow clicks through snow */
-    }
-
-    .snowflake {
-      position: absolute;
-      top: -2em;
-      color: #87CEFA;
-      font-size: 1rem;
-      user-select: none;
-      animation-name: fall, drift;
-      animation-duration: 6s, 3s;
-      animation-timing-function: linear, ease-in-out;
-      animation-iteration-count: infinite, infinite;
-      opacity: 0.8;
-    }
-
-    .snowflake:nth-child(1) { left: 10%; animation-delay: 0s, 0s; font-size:1rem;}
-    .snowflake:nth-child(2) { left: 30%; animation-delay: 1s, 0.5s; font-size:1.2rem;}
-    .snowflake:nth-child(3) { left: 50%; animation-delay: 2s, 1s; font-size:0.8rem;}
-    .snowflake:nth-child(4) { left: 70%; animation-delay: 3s, 1.5s; font-size:1rem;}
-    .snowflake:nth-child(5) { left: 90%; animation-delay: 4s, 2s; font-size:1.1rem;}
-
-    @keyframes fall {
-      0% { transform: translateY(-2em); opacity: 0.8; }
-      50% { opacity: 1; }
-      100% { transform: translateY(100%); opacity: 0; }
-    }
-
-    @keyframes drift {
-      0% { transform: translateX(0); }
-      50% { transform: translateX(10px); }
-      100% { transform: translateX(0); }
     }
 
     footer {
@@ -175,7 +132,6 @@
       color: #ffd700;
       text-decoration: none;
     }
-
   </style>
 </head>
 <body>
@@ -188,7 +144,86 @@
 <section class="services">
   <h2>💎 Our Packages</h2>
   <div class="service-container">
-    <!-- Other services omitted for brevity, same as before -->
+    <!-- Interior Reset -->
+    <div class="service">
+      <h3>🛋️ The Interior Reset</h3>
+      <p>Deep clean & protect every surface. Addons if requested: 🐾 Pet Hair • ☣️ Biohazards • 🧴 Stains • 🌫️ Odors</p>
+      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown">
+        <p>Sedan: 💰 $150 — ⏱ 2 hrs</p>
+        <p>SUV: 💰 $175 — ⏱ 2.5 hrs</p>
+        <p>Truck: 💰 $185 — ⏱ 3 hrs</p>
+      </div>
+    </div>
+
+    <!-- Exterior Revival -->
+    <div class="service">
+      <h3>🚿 The Exterior Revival</h3>
+      <p>Hand wash🧼, bug removal🪲, shined tires🌟, clear windows⚪️, & wax/spray ceramic🧴. Addons if requested: 🧲 Tar Removal • 💧 Water Spots • 🛢️ Tire Dressing • 🖤 Trim</p>
+      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown">
+        <p>Sedan: 💰 $125 — ⏱ 1 hr</p>
+        <p>SUV: 💰 $150 — ⏱ 1.5 hrs</p>
+        <p>Truck: 💰 $200 — ⏱ 2 hrs</p>
+      </div>
+    </div>
+
+    <!-- Signature Shine -->
+    <div class="service">
+      <h3>✨ Signature Shine (Full Interior + Exterior)</h3>
+      <p>The ultimate full detail inside & out.</p>
+      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown">
+        <p>Sedan: 💰 $265 — ⏱ 4 hrs</p>
+        <p>SUV: 💰 $315 — ⏱ 4.5 hrs</p>
+        <p>Truck: 💰 $365 — ⏱ 5 hrs</p>
+      </div>
+    </div>
+
+    <!-- Engine Bay -->
+    <div class="service">
+      <h3>⚙️ Engine Bay Revival</h3>
+      <p>Degrease, clean, and protect engine components.</p>
+      <p>💰 $80 — ⏱ 1 hr</p>
+    </div>
+
+    <!-- Ceramic Coating -->
+    <div class="service">
+      <h3>🛡️ Ceramic Coating + Paint Correction</h3>
+      <p>Enhance gloss, protect paint & remove imperfections.</p>
+      <p>💰 Starting at $800 — ⏱ 6–8 hrs</p>
+    </div>
+
+    <!-- Headlight -->
+    <div class="service">
+      <h3>🔦 Headlight Restoration</h3>
+      <p>Restore clarity, improve visibility & protection.</p>
+      <p>💰 $100 — ⏱ 1 hr</p>
+    </div>
+
+    <!-- Glass Polish -->
+    <div class="service">
+      <h3>🪟 Glass Polish</h3>
+      <p>Remove water spots & restore perfect clarity to windows.</p>
+      <p>💰 $75 — ⏱ 1 hr</p>
+    </div>
+
+    <!-- Add-Ons -->
+    <div class="service">
+      <h3>➕ Add-Ons</h3>
+      <p>Specialized services for tougher jobs.</p>
+      <button class="price-toggle">View Add-Ons ⬇️</button>
+      <div class="price-dropdown">
+        <p>🟡 Stain Removal – $25+</p>
+        <p>🟡 Biohazard Cleanup – $90+</p>
+        <p>🟡 Excessive Pet Hair Removal – $35+</p>
+        <p>🟡 Odor Elimination – $75+</p>
+        <p>🟡 Trim Restoration – $125</p>
+        <p>🟡 Water Spot Removal – $75+</p>
+        <p>🟡 Clay Bar + Iron Remover – $75</p>
+        <p>🟡 Leather Ceramic Coating – $150+</p>
+      </div>
+    </div>
 
     <!-- Winter Special -->
     <div class="service winter">
@@ -197,15 +232,6 @@
       <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
       <div class="price-dropdown">
         <p>all cars: 💰 $35 — ⏱ 30 mins</p>
-      </div>
-
-      <!-- Snowflakes container -->
-      <div class="snowflakes" aria-hidden="true">
-        <div class="snowflake">❄️</div>
-        <div class="snowflake">❄️</div>
-        <div class="snowflake">❄️</div>
-        <div class="snowflake">❄️</div>
-        <div class="snowflake">❄️</div>
       </div>
     </div>
 
@@ -236,3 +262,4 @@
 
 </body>
 </html>
+
