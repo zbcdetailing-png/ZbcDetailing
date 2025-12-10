@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #0d0d0d;
+      background: #000;
       color: #f5f5f5;
       line-height: 1.7;
     }
@@ -92,9 +92,7 @@
 
   <!-- Header -->
   <header>
-    <h1>ZBC Luxury Mobile Detailing</h1>
-    <p>"Luxury is in the details"</p>
-  </header>
+    <img src="/mnt/data/d65a
 
   <!-- Services -->
   <section id="services">
