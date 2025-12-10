@@ -154,7 +154,16 @@
         <p>Truck: 💰 $185 — ⏱ 3 hrs</p>
       </div>
     </div>
-
+    
+    <!-- Winter Special -->
+    <div class="service winter">
+      <h3>❄️ Winter Special – Wash Salt Off</h3>
+      <p>Protect your car from winter salt damage with a thorough wash and undercarriage cleaning.</p>
+      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown">
+        <p>all cars: 💰 $35 — ⏱ 30 mins</p>
+      </div>
+    </div>
     <!-- Exterior Revival -->
     <div class="service">
       <h3>🚿 The Exterior Revival</h3>
@@ -221,16 +230,6 @@
         <p>🟡 Water Spot Removal – $75+</p>
         <p>🟡 Clay Bar + Iron Remover – $75</p>
         <p>🟡 Leather Ceramic Coating – $150+</p>
-      </div>
-    </div>
-
-    <!-- Winter Special -->
-    <div class="service winter">
-      <h3>❄️ Winter Special – Wash Salt Off</h3>
-      <p>Protect your car from winter salt damage with a thorough wash and undercarriage cleaning.</p>
-      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
-      <div class="price-dropdown">
-        <p>all cars: 💰 $35 — ⏱ 30 mins</p>
       </div>
     </div>
 
