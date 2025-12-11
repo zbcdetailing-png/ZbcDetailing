@@ -140,6 +140,7 @@
   <img src="https://raw.githubusercontent.com/zbcdetailing-png/ZbcDetailing/209c8c5ff7527ffa6dcf4833bec9e192d08bc8ba/zbc%20detailing%20logo.jpg" alt="ZBC Detailing Logo" style="max-width:300px; height:auto;">
 </header>
 
+
  <!-- Winter Special -->
     <div class="service winter">
       <h3>❄️ Winter Special – Wash Salt Off</h3>
@@ -160,6 +161,7 @@
         <p>Truck: 💰 $200 — ⏱ 2 hrs</p>
       </div>
     </div>
+    
 
 <section class="services">
   <h2>💎 Our Packages</h2>
@@ -175,6 +177,7 @@
         <p>Truck: 💰 $185 — ⏱ 3 hrs</p>
       </div>
     </div>
+
     
     <!-- Signature Shine -->
     <div class="service">
