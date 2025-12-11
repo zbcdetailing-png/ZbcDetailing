@@ -140,7 +140,6 @@
   <img src="https://raw.githubusercontent.com/zbcdetailing-png/ZbcDetailing/209c8c5ff7527ffa6dcf4833bec9e192d08bc8ba/zbc%20detailing%20logo.jpg" alt="ZBC Detailing Logo" style="max-width:300px; height:auto;">
 </header>
 
-
  <!-- Winter Special -->
     <div class="service winter">
       <h3>❄️ Winter Special – Wash Salt Off</h3>
@@ -150,7 +149,6 @@
         <p>all cars: 💰 $35 — ⏱ 30 mins</p>
       </div>
     </div>
-
     
     <!-- Exterior Revival -->
     <div class="service">
@@ -164,7 +162,6 @@
       </div>
     </div>
     
-
 <section class="services">
   <h2>💎 Our Packages</h2>
   <div class="service-container">
@@ -180,7 +177,6 @@
       </div>
     </div>
 
-    
     <!-- Signature Shine -->
     <div class="service">
       <h3>✨ Signature Shine (Full Interior + Exterior)</h3>
