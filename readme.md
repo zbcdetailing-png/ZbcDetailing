@@ -20,9 +20,6 @@
       color: #ffd700;
     }
 
-    header h1 {
-      display: none; /* hide the top text */
-    }
 
     header p {
       font-size: 1.1rem;
