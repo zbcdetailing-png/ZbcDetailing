@@ -257,4 +257,3 @@
 </script>
 
 </body>
-</html>  ok i change my mind can you get rid of all the text above it and only keep the logo
