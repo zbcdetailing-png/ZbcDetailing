@@ -146,7 +146,7 @@
    <!-- Winter Special -->
     <div class="service winter">
       <h3>❄️ Winter Special – Wash Salt Off</h3>
-      <p>Protect your car from winter salt damage with a thorough wash and undercarriage cleaning.</p>
+      <p>Protect your car from winter salt damage with a undercarriage cleaning.</p>
       <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
       <div class="price-dropdown">
         <p>all cars: 💰 $35 — ⏱ 30 mins</p>
