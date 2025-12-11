@@ -235,9 +235,9 @@
 </section>
 
 <section class="contact">
-  <h2>📍 Contact Us</h2>
-  <p>Serving your area with premium mobile detailing.</p>
-  <p>📲 Instagram: @zbcdetailing • Facebook: @zbcdetailing</p>
+  <h2> 📍Contact Us</h2>
+  <p>Serving 570📍area with Premium Mobile Detailing.</p>
+  <p>📲 Instagram: (https://www.instagram.com/zbcdetailing/) • Facebook: @zbcdetailing</p>
   <p>☎️ 570-390-8696 • ✉️ zbcdetailing@gmail.com</p>
   <p>"Luxury is in the details."</p>
 </section>
