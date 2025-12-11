@@ -140,7 +140,10 @@
   <img src="https://raw.githubusercontent.com/zbcdetailing-png/ZbcDetailing/209c8c5ff7527ffa6dcf4833bec9e192d08bc8ba/zbc%20detailing%20logo.jpg" alt="ZBC Detailing Logo" style="max-width:300px; height:auto;">
 </header>
 
- <!-- Winter Special -->
+<section class="services">
+  <h2>💎 Our Packages</h2>
+  <div class="service-container">
+   <!-- Winter Special -->
     <div class="service winter">
       <h3>❄️ Winter Special – Wash Salt Off</h3>
       <p>Protect your car from winter salt damage with a thorough wash and undercarriage cleaning.</p>
@@ -150,6 +153,18 @@
       </div>
     </div>
     
+     <!-- Interior Reset -->
+    <div class="service">
+      <h3>🛋️ The Interior Reset</h3>
+      <p>Deep clean & protect every surface. Addons if requested: 🐾 Pet Hair • ☣️ Biohazards • 🧴 Stains • 🌫️ Odors</p>
+      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown">
+        <p>Sedan: 💰 $150 — ⏱ 2 hrs</p>
+        <p>SUV: 💰 $175 — ⏱ 2.5 hrs</p>
+        <p>Truck: 💰 $185 — ⏱ 3 hrs</p>
+      </div>
+    </div>
+
     <!-- Exterior Revival -->
     <div class="service">
       <h3>🚿 The Exterior Revival</h3>
@@ -159,21 +174,6 @@
         <p>Sedan: 💰 $125 — ⏱ 1 hr</p>
         <p>SUV: 💰 $150 — ⏱ 1.5 hrs</p>
         <p>Truck: 💰 $200 — ⏱ 2 hrs</p>
-      </div>
-    </div>
-    
-<section class="services">
-  <h2>💎 Our Packages</h2>
-  <div class="service-container">
-    <!-- Interior Reset -->
-    <div class="service">
-      <h3>🛋️ The Interior Reset</h3>
-      <p>Deep clean & protect every surface. Addons if requested: 🐾 Pet Hair • ☣️ Biohazards • 🧴 Stains • 🌫️ Odors</p>
-      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
-      <div class="price-dropdown">
-        <p>Sedan: 💰 $150 — ⏱ 2 hrs</p>
-        <p>SUV: 💰 $175 — ⏱ 2.5 hrs</p>
-        <p>Truck: 💰 $185 — ⏱ 3 hrs</p>
       </div>
     </div>
 
@@ -234,6 +234,16 @@
       </div>
     </div>
 
+    <!-- Winter Special -->
+    <div class="service winter">
+      <h3>❄️ Winter Special – Wash Salt Off</h3>
+      <p>Protect your car from winter salt damage with a thorough wash and undercarriage cleaning.</p>
+      <button class="price-toggle">View Prices by Vehicle Type ⬇️</button>
+      <div class="price-dropdown">
+        <p>all cars: 💰 $35 — ⏱ 30 mins</p>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -260,4 +270,4 @@
 </script>
 
 </body>
-</html>
+</html>  ok i change my mind can you get rid of all the text above it and only keep the logo
