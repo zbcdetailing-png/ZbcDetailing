@@ -692,10 +692,40 @@ details p {
                   <td>Boosts water beading and visibility in heavy rain conditions.</td>
                 </tr>
                 <tr>
-                  <td>Seat Extraction (Per Row)</td>
+                  <td>Upholstery Extraction (Per Row)</td>
                   <td>$45</td>
                   <td>25–40 min</td>
-                  <td>Deep shampoo extraction for stains, spills, and buildup in cloth seating.</td>
+                  <td>Deep extraction cleaning for fabric seats and upholstery to lift embedded dirt and spills.</td>
+                </tr>
+                <tr>
+                  <td>Stain Removal (Spot Treatment)</td>
+                  <td>$30+</td>
+                  <td>15–35 min</td>
+                  <td>Focused treatment for isolated interior stains on fabric, carpet, and floor mats.</td>
+                </tr>
+                <tr>
+                  <td>Biohazard Cleanup</td>
+                  <td>$90+</td>
+                  <td>45–120 min</td>
+                  <td>Special handling and sanitation for bodily fluids and other biohazard contamination.</td>
+                </tr>
+                <tr>
+                  <td>Trim Restoration</td>
+                  <td>$125</td>
+                  <td>60–90 min</td>
+                  <td>Restores faded exterior plastic trim and seals it for a rich, darker finish.</td>
+                </tr>
+                <tr>
+                  <td>Water Spot Removal</td>
+                  <td>$75+</td>
+                  <td>45–75 min</td>
+                  <td>Removes mineral spotting from paint and glass with paint-safe correction methods.</td>
+                </tr>
+                <tr>
+                  <td>Clay Bar + Iron Remover</td>
+                  <td>$75</td>
+                  <td>45–60 min</td>
+                  <td>Decontaminates paint by removing bonded fallout and iron particles for a smooth finish.</td>
                 </tr>
               </tbody>
               </table>
