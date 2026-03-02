@@ -271,15 +271,24 @@ h1 {
 }
 
 .table-wrap {
-  overflow-x: auto;
   border: 1px solid var(--line);
   border-radius: 0.8rem;
+  padding: 0.5rem;
+  background: rgb(8 19 30 / 45%);
+}
+
+.table-inner {
+  overflow-x: auto;
+  border-radius: 0.65rem;
+  background: #f3f6fa;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 700px;
+  min-width: 880px;
+  border-radius: 0.65rem;
+  overflow: hidden;
 }
 
 th,
@@ -629,7 +638,8 @@ details p {
           </div>
 
           <div class="table-wrap" role="region" aria-label="Add-on pricing table">
-            <table>
+            <div class="table-inner">
+              <table>
               <thead>
                 <tr>
                   <th>Add-On</th>
@@ -688,7 +698,8 @@ details p {
                   <td>Deep shampoo extraction for stains, spills, and buildup in cloth seating.</td>
                 </tr>
               </tbody>
-            </table>
+              </table>
+            </div>
           </div>
         </div>
       </section>
