@@ -110,6 +110,8 @@ body {
   border: 1px solid var(--line);
   border-radius: 1rem;
   padding: 1.2rem;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .hero-main-card .eyebrow {
@@ -181,6 +183,8 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 1rem;
   padding: 1.2rem;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .hero-card ul {
@@ -367,6 +371,12 @@ details p {
   .hero-grid,
   .cta-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-main-card,
+  .hero-card {
+    grid-column: auto;
+    grid-row: auto;
   }
 
   .service-grid {
