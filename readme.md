@@ -102,13 +102,25 @@ body {
 }
 
 .hero {
-  padding: 5rem 0 3rem;
+  padding: 2.25rem 0 3rem;
+}
+
+.hero-main-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 1.2rem;
+}
+
+.hero-main-card .eyebrow {
+  margin-top: 0;
 }
 
 .hero-grid {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
+  align-items: stretch;
 }
 
 .eyebrow {
@@ -400,7 +412,7 @@ details p {
     <main>
       <section id="home" class="hero">
         <div class="container hero-grid">
-          <div>
+          <div class="hero-main-card">
             <p class="eyebrow">Mobile Detailing</p>
             <h1>Big Results, Clear Pricing, and Services Built for Every Vehicle</h1>
             <p class="hero-text">
