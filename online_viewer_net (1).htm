@@ -64,6 +64,20 @@ body {
   font-size: 1.2rem;
 }
 
+.brand-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+
+.brand-logo {
+  width: 100px;
+  height: auto;
+  border-radius: 0.45rem;
+  border: 1px solid var(--line);
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -197,6 +211,26 @@ h1 {
 }
 
 .service-card ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.size-pricing {
+  margin: 0.85rem 0 0.95rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  background: rgb(8 19 30 / 60%);
+}
+
+.size-pricing p {
+  margin: 0 0 0.35rem;
+  color: var(--white);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.size-pricing ul {
   margin: 0;
   padding-left: 1rem;
 }
@@ -349,7 +383,10 @@ details p {
   <body>
     <header class="topbar">
       <div class="container topbar-content">
-        <a href="#home" class="brand">ZBC Detailing</a>
+        <div class="brand-wrap">
+          <a href="#home" class="brand">ZBC Detailing</a>
+          <img src="zbc detailing logo.jpg" alt="ZBC Detailing logo" class="brand-logo" />
+        </div>
         <nav class="nav-links" aria-label="Main navigation">
           <a href="#services">Services</a>
           <a href="#addons">Add-ons</a>
@@ -364,7 +401,7 @@ details p {
       <section id="home" class="hero">
         <div class="container hero-grid">
           <div>
-            <p class="eyebrow">Mobile & Shop-Based Detailing</p>
+            <p class="eyebrow">Mobile Detailing</p>
             <h1>Big Results, Clear Pricing, and Services Built for Every Vehicle</h1>
             <p class="hero-text">
               From quick maintenance details to full paint correction and ceramic
@@ -411,6 +448,14 @@ details p {
                 Great for well-kept vehicles that need a quick reset. Restores
                 shine and tidiness without a full deep detail.
               </p>
+              <div class="size-pricing">
+                <p>Vehicle Size Pricing</p>
+                <ul>
+                  <li>Sedan / Coupe: $95</li>
+                  <li>Midsize SUV / Small Truck: $115</li>
+                  <li>Full-Size SUV / Truck / Van: $135</li>
+                </ul>
+              </div>
               <ul>
                 <li>Foam hand wash and dry</li>
                 <li>Wheel faces cleaned and dressed</li>
@@ -427,6 +472,14 @@ details p {
                 Ideal for family cars and daily drivers that need serious inside
                 care. Targets dirt, stains, and odors for a refreshed cabin.
               </p>
+              <div class="size-pricing">
+                <p>Vehicle Size Pricing</p>
+                <ul>
+                  <li>Sedan / Coupe: $180</li>
+                  <li>Midsize SUV / Small Truck: $215</li>
+                  <li>Full-Size SUV / Truck / Van: $250</li>
+                </ul>
+              </div>
               <ul>
                 <li>Deep vacuum and compressed-air crevice cleaning</li>
                 <li>Shampoo extraction for cloth seats and carpets</li>
@@ -443,6 +496,14 @@ details p {
                 Designed for vehicles that have lost gloss and smoothness.
                 Removes contamination and boosts paint clarity.
               </p>
+              <div class="size-pricing">
+                <p>Vehicle Size Pricing</p>
+                <ul>
+                  <li>Sedan / Coupe: $170</li>
+                  <li>Midsize SUV / Small Truck: $205</li>
+                  <li>Full-Size SUV / Truck / Van: $240</li>
+                </ul>
+              </div>
               <ul>
                 <li>Pre-rinse, foam bath, and contact wash</li>
                 <li>Iron decontamination and clay treatment</li>
@@ -459,6 +520,14 @@ details p {
                 Full inside-and-out transformation package for clients who want
                 a complete reset before events, sale, or long-term care.
               </p>
+              <div class="size-pricing">
+                <p>Vehicle Size Pricing</p>
+                <ul>
+                  <li>Sedan / Coupe: $320</li>
+                  <li>Midsize SUV / Small Truck: $380</li>
+                  <li>Full-Size SUV / Truck / Van: $450</li>
+                </ul>
+              </div>
               <ul>
                 <li>Everything in Complete Interior + Exterior Detail</li>
                 <li>Single-stage paint polish for higher gloss</li>
@@ -474,6 +543,14 @@ details p {
                 Removes light swirls, oxidation, and haze to significantly improve
                 paint depth and reflection.
               </p>
+              <div class="size-pricing">
+                <p>Vehicle Size Pricing</p>
+                <ul>
+                  <li>Sedan / Coupe: $450</li>
+                  <li>Midsize SUV / Small Truck: $525</li>
+                  <li>Full-Size SUV / Truck / Van: $625</li>
+                </ul>
+              </div>
               <ul>
                 <li>Thorough wash and decontamination prep</li>
                 <li>Machine polishing with quality compounds/pads</li>
@@ -489,6 +566,14 @@ details p {
                 Best for long-term paint protection and easier maintenance.
                 Includes prep and professional coating application.
               </p>
+              <div class="size-pricing">
+                <p>Vehicle Size Pricing</p>
+                <ul>
+                  <li>Sedan / Coupe: $780</li>
+                  <li>Midsize SUV / Small Truck: $920</li>
+                  <li>Full-Size SUV / Truck / Van: $1,080</li>
+                </ul>
+              </div>
               <ul>
                 <li>Deep decontamination and panel prep</li>
                 <li>1-step polish before coating</li>
