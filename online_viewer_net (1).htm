@@ -16,7 +16,7 @@
   --card: #112133;
   --muted: #12263a;
   --text: #f3f7fb;
-  --text-soft: #c9d6e3;
+  --text-soft: #b7c8d8;
   --accent: #2dd4bf;
   --accent-dark: #14b8a6;
   --line: #2a3e53;
@@ -291,10 +291,20 @@ td {
 
 th {
   background: #0f1f31;
+  color: #f7fbff;
+}
+
+tbody tr {
+  background: #f3f6fa;
+}
+
+tbody tr:nth-child(even) {
+  background: #e9eef5;
 }
 
 td {
-  color: var(--text-soft);
+  color: #233648;
+  font-weight: 500;
 }
 
 .process-grid {
