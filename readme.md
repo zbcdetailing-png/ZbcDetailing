@@ -122,7 +122,7 @@ body {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   gap: 1rem;
-  align-items: stretch;
+  align-items: start;
 }
 
 .eyebrow {
@@ -212,6 +212,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
+  align-items: start;
 }
 
 .service-card {
@@ -320,6 +321,7 @@ td {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
+  align-items: start;
 }
 
 .process-grid article {
@@ -493,21 +495,22 @@ details p {
                 <p>Vehicle Size Pricing</p>
                 <ul>
                   <li>Sedan / Coupe: $225+</li>
-                  <li> SUV / Small Truck: $250+</li>
-                  <li> 3 row SUV $275+ / Truck / Van: $300+</li>
+                  <li>SUV / Small Truck: $250+</li>
+                  <li>3-row SUV: $275+</li>
+                  <li>Truck / Van: $300+</li>
                 </ul>
               </div>
               <ul>
                 <li>Foam hand wash and dry</li>
                 <li>Wheel faces cleaned and dressed</li>
-                <li>Interior Detailed and sanitized</li>
+                <li>Interior detailed and sanitized</li>
                 <li>Windows cleaned inside and out</li>
               </ul>
             </article>
 
             <article class="service-card featured">
               <p class="tag">Most Popular</p>
-              <h3>complete Interior Detail</h3>
+              <h3>Complete Interior Detail</h3>
               <p class="meta"><strong>Starting at:</strong> $175 | <strong>Time:</strong> 2–6 hours</p>
               <p>
                 Ideal for family cars and daily drivers that need serious inside
@@ -518,13 +521,13 @@ details p {
                 <ul>
                   <li>Sedan / Coupe: $150+</li>
                   <li>Midsize SUV / Small Truck: $175+</li>
-                  <li>3 row SUV / Truck / Van: $200+</li>
+                  <li>3-row SUV / Truck / Van: $200+</li>
                 </ul>
               </div>
               <ul>
                 <li>Deep vacuum and compressed-air crevice cleaning</li>
-                <li>seat extration if needed</li>
-                <li>Leather cleaning/li>
+                <li>Seat extraction if needed</li>
+                <li>Leather cleaning and conditioning</li>
                 <li>Steam sanitation for high-touch surfaces</li>
                 <li>UV protectant on plastics and trim</li>
               </ul>
@@ -532,7 +535,7 @@ details p {
 
             <article class="service-card">
               <h3>Complete Exterior Detail</h3>
-              <p class="meta"><strong>Starting at:</strong> $125 | <strong>Time:</strong> 1-3 hours</p>
+              <p class="meta"><strong>Starting at:</strong> $125 | <strong>Time:</strong> 1–3 hours</p>
               <p>
                 Designed for vehicles that have lost gloss and smoothness.
                 Removes contamination and boosts paint clarity.
@@ -555,8 +558,8 @@ details p {
             </article>
 
             <article class="service-card">
-              <h3>Showroom Signature full Detail</h3>
-              <p class="meta"><strong>Starting at:</strong> $275 | <strong>Time:</strong> 4-6 hours</p>
+              <h3>Showroom Signature Full Detail</h3>
+              <p class="meta"><strong>Starting at:</strong> $275 | <strong>Time:</strong> 4–6 hours</p>
               <p>
                 Full inside-and-out transformation package for clients who want
                 a complete reset before events, sale, or long-term care.
@@ -566,7 +569,8 @@ details p {
                 <ul>
                   <li>Sedan / Coupe: $275+</li>
                   <li>Midsize SUV / Small Truck: $325+</li>
-                  <li>3 row SUV $350+ / Truck / Van: $375+</li>
+                  <li>3-row SUV: $350+</li>
+                  <li>Truck / Van: $375+</li>
                 </ul>
               </div>
               <ul>
@@ -591,7 +595,7 @@ details p {
               </div>
               <ul>
                 <li>Thorough wash and decontamination prep</li>
-                <li>Machine polishing with quality compounds/pads</li>
+                <li>Machine polishing with quality compounds and pads</li>
                 <li>Approx. 50–80% defect removal</li>
                 <li>Protective sealant application</li>
               </ul>
@@ -614,7 +618,7 @@ details p {
               </div>
               <ul>
                 <li>Deep decontamination and panel prep</li>
-                <li>2-step paint correction before coating if wanted but recomended</li>
+                <li>2-step paint correction before coating (recommended)</li>
                 <li>3–5 year ceramic coating</li>
                 <li>Aftercare guide and maintenance tips</li>
               </ul>
@@ -637,64 +641,64 @@ details p {
           <div class="table-wrap" role="region" aria-label="Add-on pricing table">
             <div class="table-inner">
               <table>
-              <thead>
-                <tr>
-                  <th>Add-On</th>
-                  <th>Price</th>
-                  <th>Time</th>
-                  <th>Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Pet Hair Removal</td>
-                  <td>$40–$90</td>
-                  <td>30–90 min</td>
-                  <td>Specialized tools and brushes to remove embedded pet hair from carpets and seats.</td>
-                </tr>
-                <tr>
-                  <td>Odor Neutralizing Treatment</td>
-                  <td>$35</td>
-                  <td>20–30 min</td>
-                  <td>Neutralizes smoke, food, and mildew odors for a cleaner cabin smell.</td>
-                </tr>
-                <tr>
-                  <td>Headlight Restoration</td>
-                  <td>$80</td>
-                  <td>45–60 min</td>
-                  <td>Removes haze/yellowing and improves nighttime visibility with UV sealant.</td>
-                </tr>
-                <tr>
-                  <td>Engine Bay Detail</td>
-                  <td>$55</td>
-                  <td>30–45 min</td>
-                  <td>Safe low-moisture clean and dressing for plastics in engine compartment.</td>
-                </tr>
-                <tr>
-                  <td>Leather Protection Coating</td>
-                  <td>$65</td>
-                  <td>30 min</td>
-                  <td>Adds a layer of protection against spills, UV wear, and color transfer.</td>
-                </tr>
-                <tr>
-                  <td>Fabric Protection</td>
-                  <td>$60</td>
-                  <td>30 min</td>
-                  <td>Hydrophobic treatment to help resist stains on seats and carpet.</td>
-                </tr>
-                <tr>
-                  <td>Windshield Ceramic Coating</td>
-                  <td>$50</td>
-                  <td>20 min</td>
-                  <td>Boosts water beading and visibility in heavy rain conditions.</td>
-                </tr>
-                <tr>
-                  <td>Seat Extraction (Per Row)</td>
-                  <td>$45</td>
-                  <td>25–40 min</td>
-                  <td>Deep shampoo extraction for stains, spills, and buildup in cloth seating.</td>
-                </tr>
-              </tbody>
+                <thead>
+                  <tr>
+                    <th>Add-On</th>
+                    <th>Price</th>
+                    <th>Time</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Pet Hair Removal</td>
+                    <td>$40–$90</td>
+                    <td>30–90 min</td>
+                    <td>Specialized tools and brushes to remove embedded pet hair from carpets and seats.</td>
+                  </tr>
+                  <tr>
+                    <td>Odor Neutralizing Treatment</td>
+                    <td>$35</td>
+                    <td>20–30 min</td>
+                    <td>Neutralizes smoke, food, and mildew odors for a cleaner cabin smell.</td>
+                  </tr>
+                  <tr>
+                    <td>Headlight Restoration</td>
+                    <td>$80</td>
+                    <td>45–60 min</td>
+                    <td>Removes haze/yellowing and improves nighttime visibility with UV sealant.</td>
+                  </tr>
+                  <tr>
+                    <td>Engine Bay Detail</td>
+                    <td>$55</td>
+                    <td>30–45 min</td>
+                    <td>Safe low-moisture clean and dressing for plastics in engine compartment.</td>
+                  </tr>
+                  <tr>
+                    <td>Leather Protection Coating</td>
+                    <td>$65</td>
+                    <td>30 min</td>
+                    <td>Adds a layer of protection against spills, UV wear, and color transfer.</td>
+                  </tr>
+                  <tr>
+                    <td>Fabric Protection</td>
+                    <td>$60</td>
+                    <td>30 min</td>
+                    <td>Hydrophobic treatment to help resist stains on seats and carpet.</td>
+                  </tr>
+                  <tr>
+                    <td>Windshield Ceramic Coating</td>
+                    <td>$50</td>
+                    <td>20 min</td>
+                    <td>Boosts water beading and visibility in heavy rain conditions.</td>
+                  </tr>
+                  <tr>
+                    <td>Seat Extraction (Per Row)</td>
+                    <td>$45</td>
+                    <td>25–40 min</td>
+                    <td>Deep shampoo extraction for stains, spills, and buildup in cloth seating.</td>
+                  </tr>
+                </tbody>
               </table>
             </div>
           </div>
@@ -799,5 +803,3 @@ if (yearElement) {
 </script>
   </body>
 </html>
-
-
