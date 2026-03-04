@@ -41,8 +41,6 @@ body {
 }
 
 .topbar {
-  position: sticky;
-  top: 0;
   z-index: 20;
   backdrop-filter: blur(8px);
   background: rgb(6 12 20 / 85%);
@@ -550,10 +548,9 @@ details p {
               </div>
               <ul>
                 <li>Pre-rinse, foam bath, and contact wash</li>
-                <li>Iron decontamination and clay treatment</li>
-                <li>Paint-safe polish enhancer</li>
+                <li>tires and trim cleaned</li>
                 <li>Spray sealant protection (up to 3 months)</li>
-                <li>Tire shine and exterior trim dressing</li>
+                <li>Tire shine</li>
               </ul>
             </article>
 
