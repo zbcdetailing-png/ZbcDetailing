@@ -779,10 +779,10 @@ details p {
             </p>
           </div>
           <div class="contact-card">
-            <p><strong>Phone:</strong> (555) 123-DETAIL</p>
-            <p><strong>Email:</strong> bookings@zbcdetailing.com</p>
+            <p><strong>Phone:</strong> 570-390-8696</p>
+            <p><strong>Email:</strong> Zbcdetailing@gmail.com</p>
             <p><strong>Hours:</strong> Mon–Sat, 8:00 AM – 6:00 PM</p>
-            <a href="mailto:bookings@zbcdetailing.com" class="btn btn-primary">Request Appointment</a>
+            <a href="mailto:Zbcdetailing@gmail.com" class="btn btn-primary">Request Appointment</a>
           </div>
         </div>
       </section>
