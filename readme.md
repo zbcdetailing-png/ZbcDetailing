@@ -484,7 +484,7 @@ details p {
           <div class="service-grid">
             <article class="service-card">
               <h3>Express Refresh</h3>
-              <p class="meta"><strong>Starting at:</strong> $95 | <strong>Time:</strong> 1.5–2 hours</p>
+              <p class="meta"><strong>Starting at:</strong> $225 | <strong>Time:</strong> 1.5–3 hours</p>
               <p>
                 Great for well-kept vehicles that need a quick reset. Restores
                 shine and tidiness without a full deep detail.
@@ -492,23 +492,23 @@ details p {
               <div class="size-pricing">
                 <p>Vehicle Size Pricing</p>
                 <ul>
-                  <li>Sedan / Coupe: $95</li>
-                  <li>Midsize SUV / Small Truck: $115</li>
-                  <li>Full-Size SUV / Truck / Van: $135</li>
+                  <li>Sedan / Coupe: $225+</li>
+                  <li> SUV / Small Truck: $250+</li>
+                  <li> 3 row SUV $275+ / Truck / Van: $300+</li>
                 </ul>
               </div>
               <ul>
                 <li>Foam hand wash and dry</li>
                 <li>Wheel faces cleaned and dressed</li>
-                <li>Interior vacuum and wipe-down</li>
+                <li>Interior Detailed and sanitized</li>
                 <li>Windows cleaned inside and out</li>
               </ul>
             </article>
 
             <article class="service-card featured">
               <p class="tag">Most Popular</p>
-              <h3>Complete Interior Detail</h3>
-              <p class="meta"><strong>Starting at:</strong> $180 | <strong>Time:</strong> 3–4 hours</p>
+              <h3>complete Interior Detail</h3>
+              <p class="meta"><strong>Starting at:</strong> $175 | <strong>Time:</strong> 2–6 hours</p>
               <p>
                 Ideal for family cars and daily drivers that need serious inside
                 care. Targets dirt, stains, and odors for a refreshed cabin.
@@ -516,15 +516,15 @@ details p {
               <div class="size-pricing">
                 <p>Vehicle Size Pricing</p>
                 <ul>
-                  <li>Sedan / Coupe: $180</li>
-                  <li>Midsize SUV / Small Truck: $215</li>
-                  <li>Full-Size SUV / Truck / Van: $250</li>
+                  <li>Sedan / Coupe: $150+</li>
+                  <li>Midsize SUV / Small Truck: $175+</li>
+                  <li>3 row SUV / Truck / Van: $200+</li>
                 </ul>
               </div>
               <ul>
                 <li>Deep vacuum and compressed-air crevice cleaning</li>
-                <li>Shampoo extraction for cloth seats and carpets</li>
-                <li>Leather cleaning and conditioning</li>
+                <li>seat extration if needed</li>
+                <li>Leather cleaning/li>
                 <li>Steam sanitation for high-touch surfaces</li>
                 <li>UV protectant on plastics and trim</li>
               </ul>
@@ -532,7 +532,7 @@ details p {
 
             <article class="service-card">
               <h3>Complete Exterior Detail</h3>
-              <p class="meta"><strong>Starting at:</strong> $170 | <strong>Time:</strong> 2.5–3.5 hours</p>
+              <p class="meta"><strong>Starting at:</strong> $125 | <strong>Time:</strong> 1-3 hours</p>
               <p>
                 Designed for vehicles that have lost gloss and smoothness.
                 Removes contamination and boosts paint clarity.
@@ -540,9 +540,9 @@ details p {
               <div class="size-pricing">
                 <p>Vehicle Size Pricing</p>
                 <ul>
-                  <li>Sedan / Coupe: $170</li>
-                  <li>Midsize SUV / Small Truck: $205</li>
-                  <li>Full-Size SUV / Truck / Van: $240</li>
+                  <li>Sedan / Coupe: $125+</li>
+                  <li>SUV / Small Truck: $150+</li>
+                  <li>Truck / Van: $175+</li>
                 </ul>
               </div>
               <ul>
@@ -555,8 +555,8 @@ details p {
             </article>
 
             <article class="service-card">
-              <h3>Showroom Signature Detail</h3>
-              <p class="meta"><strong>Starting at:</strong> $320 | <strong>Time:</strong> 5–7 hours</p>
+              <h3>Showroom Signature full Detail</h3>
+              <p class="meta"><strong>Starting at:</strong> $275 | <strong>Time:</strong> 4-6 hours</p>
               <p>
                 Full inside-and-out transformation package for clients who want
                 a complete reset before events, sale, or long-term care.
@@ -564,22 +564,19 @@ details p {
               <div class="size-pricing">
                 <p>Vehicle Size Pricing</p>
                 <ul>
-                  <li>Sedan / Coupe: $320</li>
-                  <li>Midsize SUV / Small Truck: $380</li>
-                  <li>Full-Size SUV / Truck / Van: $450</li>
+                  <li>Sedan / Coupe: $275+</li>
+                  <li>Midsize SUV / Small Truck: $325+</li>
+                  <li>3 row SUV $350+ / Truck / Van: $375+</li>
                 </ul>
               </div>
               <ul>
                 <li>Everything in Complete Interior + Exterior Detail</li>
-                <li>Single-stage paint polish for higher gloss</li>
-                <li>Engine bay detail (safe method)</li>
-                <li>Final touch inspection and presentation prep</li>
               </ul>
             </article>
 
             <article class="service-card">
-              <h3>Paint Correction (1-Step)</h3>
-              <p class="meta"><strong>Starting at:</strong> $450 | <strong>Time:</strong> 6–8 hours</p>
+              <h3>Paint Correction (2-Step)</h3>
+              <p class="meta"><strong>Starting at:</strong> $500 | <strong>Time:</strong> 6–8 hours</p>
               <p>
                 Removes light swirls, oxidation, and haze to significantly improve
                 paint depth and reflection.
@@ -587,22 +584,22 @@ details p {
               <div class="size-pricing">
                 <p>Vehicle Size Pricing</p>
                 <ul>
-                  <li>Sedan / Coupe: $450</li>
-                  <li>Midsize SUV / Small Truck: $525</li>
-                  <li>Full-Size SUV / Truck / Van: $625</li>
+                  <li>Sedan / Coupe: $500+</li>
+                  <li>SUV / Small Truck: $600+</li>
+                  <li>Truck / Van: $700+</li>
                 </ul>
               </div>
               <ul>
                 <li>Thorough wash and decontamination prep</li>
                 <li>Machine polishing with quality compounds/pads</li>
-                <li>Approx. 50–70% defect removal</li>
+                <li>Approx. 50–80% defect removal</li>
                 <li>Protective sealant application</li>
               </ul>
             </article>
 
             <article class="service-card">
               <h3>Ceramic Coating Package</h3>
-              <p class="meta"><strong>Starting at:</strong> $780 | <strong>Time:</strong> 1–2 days</p>
+              <p class="meta"><strong>Starting at:</strong> $400 | <strong>Time:</strong> 1–2 days</p>
               <p>
                 Best for long-term paint protection and easier maintenance.
                 Includes prep and professional coating application.
@@ -610,14 +607,14 @@ details p {
               <div class="size-pricing">
                 <p>Vehicle Size Pricing</p>
                 <ul>
-                  <li>Sedan / Coupe: $780</li>
-                  <li>Midsize SUV / Small Truck: $920</li>
-                  <li>Full-Size SUV / Truck / Van: $1,080</li>
+                  <li>Sedan / Coupe: $400+</li>
+                  <li>Midsize SUV / Small Truck: $500+</li>
+                  <li>Truck / Van: $600+</li>
                 </ul>
               </div>
               <ul>
                 <li>Deep decontamination and panel prep</li>
-                <li>1-step polish before coating</li>
+                <li>2-step paint correction before coating if wanted but recomended</li>
                 <li>3–5 year ceramic coating</li>
                 <li>Aftercare guide and maintenance tips</li>
               </ul>
@@ -692,40 +689,10 @@ details p {
                   <td>Boosts water beading and visibility in heavy rain conditions.</td>
                 </tr>
                 <tr>
-                  <td>Upholstery Extraction (Per Row)</td>
+                  <td>Seat Extraction (Per Row)</td>
                   <td>$45</td>
                   <td>25–40 min</td>
-                  <td>Deep extraction cleaning for fabric seats and upholstery to lift embedded dirt and spills.</td>
-                </tr>
-                <tr>
-                  <td>Stain Removal (Spot Treatment)</td>
-                  <td>$30+</td>
-                  <td>15–35 min</td>
-                  <td>Focused treatment for isolated interior stains on fabric, carpet, and floor mats.</td>
-                </tr>
-                <tr>
-                  <td>Biohazard Cleanup</td>
-                  <td>$90+</td>
-                  <td>45–120 min</td>
-                  <td>Special handling and sanitation for bodily fluids and other biohazard contamination.</td>
-                </tr>
-                <tr>
-                  <td>Trim Restoration</td>
-                  <td>$125</td>
-                  <td>60–90 min</td>
-                  <td>Restores faded exterior plastic trim and seals it for a rich, darker finish.</td>
-                </tr>
-                <tr>
-                  <td>Water Spot Removal</td>
-                  <td>$75+</td>
-                  <td>45–75 min</td>
-                  <td>Removes mineral spotting from paint and glass with paint-safe correction methods.</td>
-                </tr>
-                <tr>
-                  <td>Clay Bar + Iron Remover</td>
-                  <td>$75</td>
-                  <td>45–60 min</td>
-                  <td>Decontaminates paint by removing bonded fallout and iron particles for a smooth finish.</td>
+                  <td>Deep shampoo extraction for stains, spills, and buildup in cloth seating.</td>
                 </tr>
               </tbody>
               </table>
@@ -832,3 +799,5 @@ if (yearElement) {
 </script>
   </body>
 </html>
+
+
