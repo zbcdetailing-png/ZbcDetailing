@@ -1,12 +1,4 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/position.html b/position.html
-index 32b3c46db687adb9f116d5b93136778c1fc99b2e..7b33674a4a00a39cc5a660807af30c27c0396f86 100644
---- a/position.html
-+++ b/position.html
-@@ -1,78 +1,813 @@
- <!DOCTYPE html>
--<html>
-+<html lang="en">
+<html lang="en">
    <head>
 -    <title>Position Practice</title>
 -  </head>
