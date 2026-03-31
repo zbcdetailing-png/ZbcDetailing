@@ -1,13 +1,45 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/position.html b/position.html
-index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec423b453ed 100644
+index 32b3c46db687adb9f116d5b93136778c1fc99b2e..7b33674a4a00a39cc5a660807af30c27c0396f86 100644
 --- a/position.html
 +++ b/position.html
-@@ -1,78 +1,790 @@
+@@ -1,78 +1,813 @@
  <!DOCTYPE html>
 -<html>
 +<html lang="en">
    <head>
 -    <title>Position Practice</title>
+-  </head>
+-  <body style="
+-    height: 3000px;
+-    padding-top: 60px;
+-    padding-left: 80px;
+-  ">
+-    <div style="
+-      background-color: black;
+-      color: white;
+-      position: fixed;
+-      top: 0;
+-      left: 0;
+-      right: 0;
+-      height: 50px;
+-      z-index: 100;
+-    ">header</div>
+-
+-    <div style="
+-      background-color: green;
+-      color: white;
+-      position: fixed;
+-      left: 0;
+-      bottom: 0;
+-      top: 50px;
+-      width: 72px;
+-    ">
+-      sidebar
+-      <div style="
+-        position: absolute;
+-        background-color: red;
+-        color: white;
 +    <meta charset="UTF-8" />
 +    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 +    <title>ZBC Detailing | Professional Auto Detailing Services</title>
@@ -36,6 +68,8 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +
 +      body {
 +        margin: 0;
++        background: #08111c;
++        color: #f3f7fb;
 +        font-family: 'Inter', sans-serif;
 +        color: var(--text);
 +        background: linear-gradient(180deg, #07101a 0%, #0b1724 50%, #08111c 100%);
@@ -48,8 +82,14 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      .topbar {
++        position: sticky;
+         top: 0;
+-        right: 0;
+-      ">
+-        X
 +        z-index: 20;
 +        backdrop-filter: blur(8px);
++        background: #060c14;
 +        background: rgb(6 12 20 / 85%);
 +        border-bottom: 1px solid var(--line);
 +      }
@@ -91,6 +131,7 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      .nav-links a {
++        color: #b7c8d8;
 +        color: var(--text-soft);
 +        text-decoration: none;
 +        font-weight: 600;
@@ -111,6 +152,8 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      .hero-main-card {
++        background: #112133;
++        border: 1px solid #2a3e53;
 +        background: var(--card);
 +        border: 1px solid var(--line);
 +        border-radius: 1rem;
@@ -150,6 +193,7 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      .hero-text {
++        color: #b7c8d8;
 +        color: var(--text-soft);
 +        max-width: 62ch;
 +      }
@@ -184,6 +228,8 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      .hero-card {
++        background: #112133;
++        border: 1px solid #2a3e53;
 +        background: var(--card);
 +        border: 1px solid var(--line);
 +        border-radius: 1rem;
@@ -209,6 +255,7 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      .section-heading p {
++        color: #b7c8d8;
 +        color: var(--text-soft);
 +        max-width: 70ch;
 +      }
@@ -221,6 +268,8 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      .service-card {
++        background: #112133;
++        border: 1px solid #2a3e53;
 +        background: var(--card);
 +        border: 1px solid var(--line);
 +        border-radius: 1rem;
@@ -229,6 +278,7 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +
 +      .service-card p,
 +      .service-card li {
++        color: #b7c8d8;
 +        color: var(--text-soft);
 +      }
 +
@@ -330,6 +380,8 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      .process-grid article {
++        background: #112133;
++        border: 1px solid #2a3e53;
 +        background: var(--card);
 +        border: 1px solid var(--line);
 +        border-radius: 0.9rem;
@@ -354,6 +406,8 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      details {
++        background: #112133;
++        border: 1px solid #2a3e53;
 +        background: var(--card);
 +        border: 1px solid var(--line);
 +        border-radius: 0.8rem;
@@ -366,6 +420,7 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      details p {
++        color: #b7c8d8;
 +        color: var(--text-soft);
 +      }
 +
@@ -381,6 +436,8 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      }
 +
 +      .contact-card {
++        background: #112133;
++        border: 1px solid #2a3e53;
 +        background: var(--card);
 +        border: 1px solid var(--line);
 +        border-radius: 0.9rem;
@@ -390,6 +447,7 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +      .site-footer {
 +        border-top: 1px solid var(--line);
 +        padding: 1.2rem 0 1.8rem;
++        color: #b7c8d8;
 +        color: var(--text-soft);
 +      }
 +
@@ -426,41 +484,7 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +        }
 +      }
 +    </style>
-   </head>
--  <body style="
--    height: 3000px;
--    padding-top: 60px;
--    padding-left: 80px;
--  ">
--    <div style="
--      background-color: black;
--      color: white;
--      position: fixed;
--      top: 0;
--      left: 0;
--      right: 0;
--      height: 50px;
--      z-index: 100;
--    ">header</div>
--
--    <div style="
--      background-color: green;
--      color: white;
--      position: fixed;
--      left: 0;
--      bottom: 0;
--      top: 50px;
--      width: 72px;
--    ">
--      sidebar
--      <div style="
--        position: absolute;
--        background-color: red;
--        color: white;
--        top: 0;
--        right: 0;
--      ">
--        X
++  </head>
 +  <body>
 +    <header class="topbar">
 +      <div class="container topbar-content">
@@ -863,3 +887,6 @@ index 32b3c46db687adb9f116d5b93136778c1fc99b2e..4273cc58ac46772d06130850f5598ec4
 +    </script>
    </body>
  </html>
+ 
+EOF
+)
